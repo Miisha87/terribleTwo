@@ -1,4 +1,14 @@
 ﻿body {
 
+    font-family: "Open sans",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
 
+}
+
+row {
+
+    background-color: lightblue;
+    border: solid 1px;
 }
