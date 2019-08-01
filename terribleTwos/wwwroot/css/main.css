@@ -7,13 +7,15 @@
 
 }
 
-row {
+.row {
 
     background-color: lightblue;
-    border: solid 1px;
 }
 
-$grid-columns {
 
+.h1-background
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  gainsboro;
 
 }
