@@ -19,3 +19,7 @@
     font-weight: bold;
 }
 
+.row-justify-center {
+
+    justify-content: center;
+}
