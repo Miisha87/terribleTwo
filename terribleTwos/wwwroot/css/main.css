@@ -12,3 +12,10 @@ row {
     background-color: lightblue;
     border: solid 1px;
 }
+
+
+reSizePic {
+    width: 50%;
+    height: auto;
+}
+
