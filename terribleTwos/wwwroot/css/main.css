@@ -4,11 +4,11 @@
     font-size: 14px;
     line-height: 1.42857143;
     color: #000;
+    background-color: lightblue;
 
 }
 
 .row {
-
     background-color: lightblue;
 }
 
@@ -19,3 +19,4 @@
     background-color:  gainsboro;
 
 }
+
