@@ -2,9 +2,111 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Terrible Twos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/css/main.css" rel="stylesheet" />
 </head>
 <body>
+    <!--NAVBAR START-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html">Home</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!--nav-item active-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stories</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Advices</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Motivation</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--NAVBAR END-->
+        <!--H1 BÖRJAR-->
+
+        <div class="row row-justify-center">
+            <div class="col-6 md-auto">
+                <h1 class="text-center h1-background rounded-pill">Advices</h1>
+            </div>
+            <!--H1 SLUTAR-->
+            <!--style="width: 400px; padding: 10px 15px;-->
+        </div>
+        <!--LISTA BÖRJAR-->
+        <div class="row justify-content-around">
+            <div class="col-4 justify-content-around">
+                <ul class="list-group">
+                    <li class="list-group-item"> <span class="badge badge-primary badge-pill">1</span>Respect the nap  </li>
+
+                    <li class="list-group-item "><span class="badge badge-primary badge-pill">2</span>  Stick to a schedule with meals </li>
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">3</span> Talk through triggers ahead of time. ...</li>
+                    <li class="list-group-item"> <span class="badge badge-primary badge-pill">4</span> Don't cave in... </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">5</span>  Cure boredom...  </li>
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">6</span>Be consistent and calm. ...</li>
+                    <li class="list-group-item "><span class="badge badge-primary badge-pill">7</span>Redirect when necessary...</li>
+                </ul>
+                <!--LISTA SLUTAR-->
+                <!--YOUTUBE VIDEO-->
+            </div>
+            <div class="col-4 justify-content-around">
+                <iframe width="520" height="315" class="center-block" src="https://www.youtube.com/embed/51GYqjDQa4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!--YOUTUBE VIDEO SLUTAR-->
+            <!--EN KNAPP-->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+   
 
 </body>
 </html>
