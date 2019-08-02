@@ -68,7 +68,7 @@
         <!--CAROUSEL-->
         <div class="row row-justify-center">
 
-            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade col-lg-4 justify-content-center" data-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade col-lg-4 justify-content-center" data-ride="carousel" data-interval="4000">
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
@@ -109,10 +109,19 @@
 
         <script>
 
-    function toggleModal() {
-        $('#exampleModalCenter').modal('toggle')
+             function toggleModal() {
 
-    }
+                $('#exampleModalCenter').modal('toggle')
+             }
+
+            //$(document).ready(function () {
+
+            //    $("#carouselExampleSlidesOnly").carousel({
+            //        interval: 50
+
+            //    });
+            //});
+
 
         </script>
 
