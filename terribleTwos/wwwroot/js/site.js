@@ -2,3 +2,7 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your Javascript code.
+//<script>
+//// When the user clicks on <div>, open the popup
+
+
