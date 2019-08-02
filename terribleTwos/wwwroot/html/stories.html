@@ -56,43 +56,64 @@
                         Feeling like you are the only one with a cuckuu life? Naah-aah, dont think so.<br />
                         Here are som real life stories from other parents who survived the terrible two.
                     </p>
-                    <button id="secret" type="button" class="btn btn-primary btn-lg">Hey, wanna know a secret?</button>
+                    <button id="secret" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="toggleModal()">
+                        Here is a little secret!
+                    </button>
 
                 </div>
             </div>
 
         </div>
         <!--JUMBOTRON ENDS -->
-
         <!--CAROUSEL-->
         <div class="row row-justify-center">
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade col-lg-4 justify-content-center" data-ride="carousel">
-            <div class="carousel-inner">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade col-lg-4 justify-content-center" data-ride="carousel">
+                <div class="carousel-inner">
 
-                <div class="carousel-item active">
-                    <img src="/images/story1.jpg" class="d-block w-100">
+                    <div class="carousel-item active">
+                        <img src="/images/storya.jpg" class="d-block w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="/images/storyb.jpg" class="d-block w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="/images/storyc.jpg" class="d-block w-100" alt="...">
+                    </div>
                 </div>
 
-                <div class="carousel-item">
-                    <img src="/images/story2.jpg" class="d-block w-100">
-                </div>
+            </div>
+        </div>
 
-                <div class="carousel-item">
-                    <img src="/images/story3.jpg" class="d-block w-100" alt="...">
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Secret</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Research shows that if we allow toddlers to help, even when helping might mean more of a mess than if you did it yourself, really pays off in the long-run. Toddlers are naturally inclined to want to help and when nurture that instead of stifling it, they are more likely to volunteer to help around the house when they are much older.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     
+                    </div>
                 </div>
             </div>
+        </div>
 
-        </div>
-        </div>
         <script>
 
-            let mybutton = document.getElementById('secret');
-            mybutton.addEventListener('click', () => {
+    function toggleModal() {
+        $('#exampleModalCenter').modal('toggle')
 
+    }
 
-
-            })
         </script>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
